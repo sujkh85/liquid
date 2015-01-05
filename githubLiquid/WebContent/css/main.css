@@ -1,0 +1,123 @@
+ /***********************************************************************
+  * 작업자 : 최승환
+  * 작업일자 : 
+  * 어떤 파일에 호출받는가 : main.jsp
+  * 어떤 파일을 호출하는가 : 
+  * 파일 타입 : CSS
+  * 14.11.22_이승우 : li 및 메인 css 적용 
+  ***********************************************************************/
+@CHARSET "EUC-KR";
+/* main.jsp?menu="value" 를 호출하는 모든 페이지 적용 */
+td {font-size:12pt; font-family: 맑은 고딕; color: black;}
+th{ font-size: 18px; font-family : 맑은 고딕; text-decoration: none; color: black ;}
+input{font-size:10pt; font-family:맑은 고딕;}
+a{font-family: "맑은 고딕", " Verdana" ; color : #000000; text-decoration: none; }
+img {color:#000000}
+body {line-height: 1; background: #ffffff; color : #000; }
+
+li {
+	list-style-type: none; 
+	padding: 5px; 
+	text-align : center; 
+	font-family: sans-serif; 
+}
+
+.main{
+	max-width: 1000px;
+	min-width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+} 
+	
+.main-header{
+	width: auto;
+	height: 600px;
+	padding: 20px;
+    margin: 0px auto;
+} 
+	
+.main-content{
+	width: 95%;
+    padding: 0px; 
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+.Catalogue-No{
+	width: 22%; 
+	padding: 10px; 
+	float: left;
+	margin-bottom: 20px;
+	 
+}
+	
+.main-banner{
+	width: 0%;
+    padding: 10px;
+    float: right;
+}
+	
+.main-content-product{
+	width: 100%;
+	padding: 10px; 
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}	
+
+.main-content-design{
+	width: 100%;
+	padding: 10px; 
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.main-content-catalogue-logo{
+	font-family: fantasy;
+	font-size: 32px;
+}
+
+.main-content-catalogue-content-box{ 
+	width: 23%; 
+	padding: 10px; 
+	float: left;
+	margin-bottom: 20px;
+}
+	
+.main-footer{
+	float : center;
+	max-width: 1000px;
+	min-width: 1000px;
+    padding: 20px;
+    margin:0 auto; 
+    bottom:0px;
+	width:100%;
+}
+.main-header-top{
+	float: right;
+	margin-right: 0px
+}
+.main-header-under-menu{
+	width:100%;
+	margin-bottom: 10%;
+}
+
+.main-header-under-menu-list span{
+	width: 60px;
+	float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	list-style: none;
+	text-align: center;
+}
+
+table .ex
+.ex tbody tr:hover {background:#fdfec0}
+
+

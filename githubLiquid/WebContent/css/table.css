@@ -1,0 +1,24 @@
+@CHARSET "EUC-KR";
+table.ex1 {width:98%; margin:0 auto; text-align:center; border-collapse:collapse}
+.ex1 div, .ex1 td {padding:5px 10px}
+.ex1 thead tr.menu{background:#ABC668; color:#fff; text-align:center; border-right:1px solid #fff}
+.ex1 thead tr.menu0{background:#ececec; color:#fff; text-align:center; border-right:1px solid #000000}
+.ex1 thead tr.menu4{background:#ececec; color:#red; text-align:center; border-right:1px solid #000000}
+.ex1 thead tr.menu1{background:#ccdca3; color:#fff; text-align:center; border-right:1px solid #000000}
+.ex1 thead tr.menu3{background:#ffffff; color:#fff; text-align:center; border-right:1px solid #000000}
+.ex1 tbody th {text-align:center; width:12%}
+.ex1 tbody td.date1 {text-align:center; width:8%}
+.ex1 tbody td.date2 {text-align:left; width:20%}
+.ex1 tbody td.date3 {text-align:left; width:14%}
+.ex1 tbody td.desc {text-align:left; width:35%}
+.ex1 tbody tr.odd {background:#ececec}
+.ex1 tbody tr:hover {background:#F3F5BB}
+.ex1 tbody tr:hover th {background:#F2F684; color:#1BA6B2}
+.ex1 tfoot div {border-top:6px solid #d0eeec; color:#1BA6B2}
+
+td#no{width:10%}
+td#title{width:55%;}
+td#writer{width:15%}
+td#date{width:10%}
+td#review{width:10%}
+

@@ -1,0 +1,9 @@
+@CHARSET "EUC-KR";
+.star_rating{width:100px;height:20px;background:url(bg_starpoint_off.gif) 0 0 no-repeat; background-size: 100px; 20px;}
+.star_rating span{display:block;height:15px;background:url(bg_starpoint_on.gif) 0 0 no-repeat; background-size: 100px; 20px;}
+.star_rating .point{display:none}
+
+@media print {
+.star_rating span{display:none}
+.star_rating .point{display:block}
+}

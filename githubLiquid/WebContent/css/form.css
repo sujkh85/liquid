@@ -1,0 +1,30 @@
+@CHARSET "EUC-KR";
+ input[type=button]{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 7px;
+	width: 50px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+	background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	border-radius: 10px;
+	border: 1px solid #66add6;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+#log_button{ 
+	width: 100px; 
+	height: 90px;
+}
+
+.d_log_form {
+	margin:0 auto; 
+	width: 320px;
+	height: 180px;
+	
+}
+

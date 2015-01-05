@@ -1,0 +1,27 @@
+@CHARSET "EUC-KR";
+.product{
+	width: auto;
+    margin: 0px auto;
+    padding: 10px;
+} 
+ 
+ .product-list {
+	width:20%;
+	float:left;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+ .product-list-no {
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+.product_detail {
+	margin: 0px auto;
+	text-align: center;
+}
+     
